@@ -1,0 +1,23 @@
+/* Efectos en las cards */
+.card {
+    flex: 0 0 auto;
+    width: 250px;
+    height: 350px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px); /* La card sube un poco */
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3); /* Sombra más intensa */
+}
+
+/* Efectos en los botones dentro de las cards */
+.card .btn {
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.card .btn:hover {
+    transform: scale(1.1); /* El botón crece un poco */
+    background-color: #555; /* Cambio de color suave */
+}
+

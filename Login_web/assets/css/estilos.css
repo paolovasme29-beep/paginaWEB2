@@ -1,0 +1,133 @@
+/* Fuente */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(54, 48, 70);
+  background: url("https://pe.puma.com/on/demandware.static/-/Sites-PE-Library/default/dw9005a882/images/Banners_Speedcat-Drop2_1440x500_desktop.jpg") no-repeat center center/cover;
+}
+
+/* Caja de login */
+.login-box {
+  width: 350px;
+  padding: 30px 25px;
+  background: rgba(0,0,0,0.75);
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+  color: #fff;
+  text-align: center;
+  backdrop-filter: blur(6px);
+}
+
+.login-box .inicio #login {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+/* Inputs */
+.Usuario, .Contraseña {
+  position: relative;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.Usuario label,
+.Contraseña label {
+  font-size: 14px;
+  color: #ccc;
+}
+
+.Usuario input,
+.Contraseña input {
+  width: 100%;
+  padding: 12px 40px 12px 12px;
+  margin-top: 6px;
+  border: none;
+  border-radius: 10px;
+  background: rgba(255,255,255,0.1);
+  color: #fff;
+  font-size: 14px;
+  outline: none;
+}
+
+.Usuario input:focus,
+.Contraseña input:focus {
+  border: 1px solid #ff3b30;
+  box-shadow: 0 0 8px rgba(255,59,48,0.4);
+}
+
+/* Iconos dentro de inputs */
+#man, #candado {
+  position: absolute;
+  right: 12px;
+  top: 36px;
+  width: 20px;
+  height: 20px;
+  opacity: 0.7;
+}
+
+/* Botón */
+.boton {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  background: linear-gradient(90deg, #ff3b30, #ff6b57);
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 6px 18px rgba(255,59,48,0.4);
+  transition: transform 0.1s ease-in;
+}
+
+.boton:hover {
+  background: linear-gradient(90deg, #ff6b57, #ff3b30);
+}
+
+.boton:active {
+  transform: translateY(1px);
+}
+
+/* Enlace */
+.enlace {
+  display: block;
+  margin-top: 14px;
+  font-size: 13px;
+  color: #ccc;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.enlace:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+.inicio{
+    color: #ccc;
+}
+
+.bien {
+  position: absolute;
+  top: 30px;           /* distancia desde arriba */
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  color: #fff;         /* cambia color si quieres */
+  font-size: 20px;
+  font-weight: 600;
+}
+

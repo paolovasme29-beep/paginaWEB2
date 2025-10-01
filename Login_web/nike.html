@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nike-StrideX</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style_menu.css">
+    <link rel="stylesheet" href="nike.css">
+
+    <style>
+        .scroll-cards {
+            display: flex;
+            gap: 1rem;
+            overflow-x: auto;
+            padding-bottom: 1rem;
+            scrollbar-width: thin;
+        }
+
+        .scroll-cards::-webkit-scrollbar {
+            height: 8px;
+        }
+
+        .scroll-cards::-webkit-scrollbar-thumb {
+            background: #333;
+            border-radius: 4px;
+        }
+
+        .card {
+            flex: 0 0 auto;
+            width: 250px;
+            height: 350px;
+        }
+
+        .card-img-top {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+
+<body class="tema-neon">
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">MENU</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="menu.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="nike.html">Nike</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="puma.html">Puma</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="adidas.html">Adidas</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- CARDS -->
+    <div class="container my-5">
+        <h2 class="mb-4">Nuevos Nikes</h2>
+        <div class="scroll-cards">
+
+            <div class="card">
+                <img src="https://www.nike.com.pe/dw/image/v2/BJKZ_PRD/on/demandware.static/-/Sites-catalog-equinox/default/dw25dde2a4/images/hi-res/198482251437_1_20250606-mrtPeru.jpg?sw=800&sh=800"
+                    class="card-img-top" alt="Jordan Spizike Low">
+                <div class="card-body">
+                    <h5 class="card-title">Jordan Spizike Low</h5>
+                    <p class="card-text">Clásico con toque moderno.</p>
+                    <a href="#" class="btn btn-dark">Comprar</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://www.nike.com.pe/dw/image/v2/BJKZ_PRD/on/demandware.static/-/Sites-catalog-equinox/default/dwcdbcabcb/images/hi-res/197862929263_1_20250403-mrtPeru.jpg?sw=500&sh=500"
+                    class="card-img-top" alt="Jordan CMFT Era">
+                <div class="card-body">
+                    <h5 class="card-title">Jordan CMFT Era</h5>
+                    <p class="card-text">Ligero y versátil.</p>
+                    <a href="#" class="btn btn-dark">Comprar</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://www.nike.com.pe/dw/image/v2/BJKZ_PRD/on/demandware.static/-/Sites-catalog-equinox/default/dwd3a9c4d1/images/hi-res/197862962000_1_20250613-mrtPeru.jpeg?sw=500&sh=500"
+                    class="card-img-top" alt="Air Jordan 5 Retro">
+                <div class="card-body">
+                    <h5 class="card-title">Air Jordan 5 Retro</h5>
+                    <p class="card-text">Potencia y estilo callejero.</p>
+                    <a href="#" class="btn btn-dark">Comprar</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://www.nike.com.pe/dw/image/v2/BJKZ_PRD/on/demandware.static/-/Sites-catalog-equinox/default/dwfafd94d9/images/hi-res/198481729449_1_20250606-mrtPeru.jpg?sw=500&sh=500"
+                    class="card-img-top" alt="Air Jordan 1 Low SE">
+                <div class="card-body">
+                    <h5 class="card-title">Air Jordan 1 Low SE</h5>
+                    <p class="card-text">Icono con vibra fresca.</p>
+                    <a href="#" class="btn btn-dark">Comprar</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- CARDS -->
+    <div class="container my-5">
+        <h2 class="mb-4">Lo más vendido</h2>
+        <div class="scroll-cards">
+
+            <div class="card">
+                <img src="https://www.nike.com.pe/dw/image/v2/BJKZ_PRD/on/demandware.static/-/Sites-catalog-equinox/default/dwb366fc06/images/hi-res/197862947397_1_20250409-mrtPeru.jpg?sw=500&sh=500"
+                    class="card-img-top" alt="Air Jordan 3 Retro">
+                <div class="card-body">
+                    <h5 class="card-title">Air Jordan 3 Retro</h5>
+                    <p class="card-text">Estilo clásico renovado.</p>
+                    <a href="#" class="btn btn-dark">Comprar</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://www.nike.com.pe/dw/image/v2/BJKZ_PRD/on/demandware.static/-/Sites-catalog-equinox/default/dwfe4bf213/images/hi-res/197859347742_1_20250108-mrtPeru.jpg?sw=500&sh=500"
+                    class="card-img-top" alt="Air Jordan 1 Mid">
+                <div class="card-body">
+                    <h5 class="card-title">Air Jordan 1 Mid</h5>
+                    <p class="card-text">Elegancia urbana esencial.</p>
+                    <a href="#" class="btn btn-dark">Comprar</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://www.nike.com.pe/dw/image/v2/BJKZ_PRD/on/demandware.static/-/Sites-catalog-equinox/default/dw1585af7b/images/hi-res/197862964714_1_20250403-mrtPeru.jpg?sw=500&sh=500"
+                    class="card-img-top" alt="Jumpman MVP">
+                <div class="card-body">
+                    <h5 class="card-title">Jumpman MVP</h5>
+                    <p class="card-text">Energía para cada paso.</p>
+                    <a href="#" class="btn btn-dark">Comprar</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://www.nike.com.pe/dw/image/v2/BJKZ_PRD/on/demandware.static/-/Sites-catalog-equinox/default/dwfec0589b/images/hi-res/197862972306_1_20250403-mrtPeru.jpg?sw=500&sh=500"
+                    class="card-img-top" alt="Air Jordan 4 RM">
+                <div class="card-body">
+                    <h5 class="card-title">Air Jordan 4 RM</h5>
+                    <p class="card-text">Retro con aire fresco.</p>
+                    <a href="#" class="btn btn-dark">Comprar</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- CARDS -->
+    <div class="container my-5">
+        <h2 class="mb-4">Colección Nueva</h2>
+        <div class="scroll-cards">
+
+            <div class="card">
+                <img src="https://www.nike.com.pe/dw/image/v2/BJKZ_PRD/on/demandware.static/-/Sites-catalog-equinox/default/dw8bb3bea3/images/hi-res/198483484568_1_20250907-mrtPeru.jpeg?sw=500&sh=500"
+                    class="card-img-top" alt="Air Jordan 4 Retro Cave Stone">
+                <div class="card-body">
+                    <h5 class="card-title">Air Jordan 4 Retro "Cave Stone"</h5>
+                    <p class="card-text">Clásico con fuerza única.</p>
+                    <a href="#" class="btn btn-dark">Comprar</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://www.nike.com.pe/dw/image/v2/BJKZ_PRD/on/demandware.static/-/Sites-catalog-equinox/default/dw5f14b055/images/hi-res/198482121952_1_20250604-mrtPeru.jpg?sw=500&sh=500"
+                    class="card-img-top" alt="Air Jordan 4 RM">
+                <div class="card-body">
+                    <h5 class="card-title">Air Jordan 4 RM</h5>
+                    <p class="card-text">Estilo urbano auténtico.</p>
+                    <a href="#" class="btn btn-dark">Comprar</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://www.nike.com.pe/dw/image/v2/BJKZ_PRD/on/demandware.static/-/Sites-catalog-equinox/default/dwb3d58cd6/images/hi-res/198483436321_1_20250604-mrtPeru.jpg?sw=500&sh=500"
+                    class="card-img-top" alt="Jordan Flight Court">
+                <div class="card-body">
+                    <h5 class="card-title">Jordan Flight Court</h5>
+                    <p class="card-text">Ligereza para cada paso.</p>
+                    <a href="#" class="btn btn-dark">Comprar</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://www.nike.com.pe/dw/image/v2/BJKZ_PRD/on/demandware.static/-/Sites-catalog-equinox/default/dwddabe666/images/hi-res/197862926002_1_20250403-mrtPeru.jpg?sw=500&sh=500"
+                    class="card-img-top" alt="Adidas Forum Low">
+                <div class="card-body">
+                    <h5 class="card-title">Adidas Forum Low</h5>
+                    <p class="card-text">Retro con frescura moderna.</p>
+                    <a href="#" class="btn btn-dark">Comprar</a>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
